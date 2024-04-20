@@ -1,0 +1,22 @@
+{
+  "username":"komal Viswaklaram",
+  "email":"komal@gmail.com",
+  "password":"12345",
+  "role":"admin"
+  
+}
+// 
+  //   "title": "job4",
+  //   "description": "job",
+  //   "completed": true,
+  //   "userId": "6533cc4ee86638bac3e32097",
+  //   "username": "hello",
+  //   "role": "user",
+  //   "_id": "6533cd104efe98c7d89ebad1",
+    
+
+
+    "username":"ranjo",
+  "email":"ranjo@gmail.com",
+  "password":"12345",
+  "role":"admin"

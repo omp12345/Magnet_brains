@@ -1,0 +1,117 @@
+.registration-container{
+    max-width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:200px ;
+    width: 400px;
+    height: 400px;
+    
+    background-color: teal;
+    opacity: 0.7;
+    border-radius: 20px;
+    object-fit: contain;
+    background-position:  center;
+        
+    background-size: cover;
+    border: 2px solid teal;
+    background-image: url("https://img.freepik.com/free-vector/3d-cartoon-style-checkmark-phone-screen-icon-success-message-notification-document-scanning-white-background-flat-vector-illustration-paperwork-agreement-concept_778687-985.jpg?size=626&ext=jpg&ga=GA1.1.1660271314.1697394009&semt=ais");
+    
+    }
+    
+    .registration-container form input {
+      border-radius: 7px;
+      font-weight: 300;
+      border-color: black;
+    }
+    .registration-container form button{
+      margin-left: 10px;
+    
+    }.registration-container h2{
+      margin-top: 10px;
+    }
+    .om{
+      margin-top: 15px;
+      margin-right: 25px;
+    
+    padding-left: 2px;
+    
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .registration-container {
+    
+       
+        max-width: 100%;
+        padding-left: 20px;
+        margin-bottom: 100px;
+        object-fit: contain;
+        background-position:  center;
+        
+        background-size: cover;
+       
+        background-image: url("https://img.freepik.com/free-psd/3d-icon-social-media-app_23-2150049569.jpg?size=626&ext=jpg&ga=GA1.2.1660271314.1697394009&semt=ais")
+      }
+    }
+    
+    /* For larger tablets and desktops */
+    @media (min-width: 100px) and (max-width: 768px) {
+      
+      .registration-container {
+        max-width: 100%;
+        width: 80%;
+        padding-left: 20px;
+        margin-bottom: 100px;
+        object-fit: contain;
+        background-position:  center;
+        
+        background-size: cover;
+        
+       
+        background-image: url("https://img.freepik.com/free-psd/3d-icon-social-media-app_23-2150049569.jpg?size=626&ext=jpg&ga=GA1.2.1660271314.1697394009&semt=ais")
+      }
+      .registration-container form {
+        max-width: 100%;
+      }
+      .registration-container form  input{
+        background-color: white ;
+        max-width: 80%;
+        color:black
+        
+       
+      }
+      .registration-container form  label{
+        max-width: 80%;
+      }
+      .registration-container form  button{
+        max-width:100% ;
+       
+      }
+      .registration-container form  h2{
+        max-width: 100%;
+        color:rgba(64, 55, 50, 0.464)
+      }
+      .om{
+        width: 100%;
+        display: flex;
+        max-width:100%;
+       margin-right: 40px;
+       
+    
+    
+    
+      }
+      .om button{
+        display: block;
+        max-width:50%;
+        margin-right: 20px;
+        
+        color: rgb(128, 83, 0);
+        
+      }
+    }
+    /* register has been page responcive  */
+    
+    
+    
